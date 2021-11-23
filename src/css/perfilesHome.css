@@ -9,9 +9,26 @@
   position: absolute;
   cursor: pointer;
 }
-.containerArrowArquitecto{
-    margin-left: 2vw;
+.containerArrowArquitecto {
+  margin-left: 2vw;
   margin-top: 4vw;
   position: absolute;
   cursor: pointer;
 }
+.container-visitas {
+  background: white;
+  height: 26vw;
+  width: 50.5vw;
+  margin-left: 23vw;
+  margin-top: 1.5vw;
+  border-radius: 1vw;
+  padding: 2.5vw;
+  overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.container-visitas::-webkit-scrollbar{
+  display: none;
+}
+
+

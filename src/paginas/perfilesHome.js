@@ -7,6 +7,7 @@ import PerfilUsr from "../componentes/perfilUsr";
 import PerfilArq from "../componentes/perfilArq.js";
 import Seguimiento from "../componentes/seguimiento";
 import Cotizacion from "../componentes/cotizacion";
+import FechaVisitas from "../componentes/fechaVisitas";
 import CotPendientes from "../componentes/cotPendientes";
 import Recomendaciones from "../componentes/recomendaciones";
 import Carrucel from "../componentes/carrucel";
@@ -20,6 +21,7 @@ function PerfilesHome() {
   const [perfilUsr, setperfilUsr] = React.useState(true);
   const [recomendacion, setrecomendacion] = React.useState(true);
   const [seguimiento, setseguimiento] = React.useState(true);
+  const [fechaVisitas, setfechaVisitas] = React.useState(true);
   const [footer, setFooter] = React.useState(true);
   const [carrucel, setcarrucel] = React.useState(true);
   const [perfilArq, setperfilArq] = React.useState(false);
@@ -88,6 +90,9 @@ function PerfilesHome() {
             onEnviaId={(id) => handleVistasPerfiles(id)}
           ></Recomendaciones>
         ) : null}
+      </div>
+      <div className="container-visitas">
+      {fechaVisitas ? <FechaVisitas></FechaVisitas> :null }
       </div>
       <div className="container-carrucel-home">
         {carrucel ? <Carrucel></Carrucel> : null}

@@ -1,0 +1,60 @@
+
+
+
+.label-visitas {
+  font-family: var(--latoBlack);
+  color: #2e2e2e;
+  display: block;
+  font-size: 1.3vw;
+}
+.date-visit {
+  width: 17vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  border-color: var(--naranja);
+  border-style: solid;
+  padding: 0.5vw;
+}
+.date-visit::placeholder {
+  color: #d9d9d9;
+  font-size: 0.9vw;
+  font-family: var(--arialRegular);
+}
+.Container-fechas {
+  background: var(--naranja);
+  width: 26vw;
+  height: 22vw;
+  position: absolute;
+  margin-left: 19.5vw;
+  margin-top: -6.2vw;
+  border-radius: 1vw;
+}
+
+.dias-semanas {
+  background: #f5b30c;
+  width: 5vw;
+  height: 8vw;
+  position: absolute;
+  margin-top: 0vw;
+  margin-left: 3vw;
+  border-radius: 0.5vw;
+}
+.horas-dias {
+  margin-left: 7vw;
+  height: 7.8vw;
+  width: 16vw;
+  background: white;
+  margin-top: 2vw;
+  position: inherit;
+  border-radius: 0.5vw;
+}
+.dia-semana {
+  font-size: 2.5vw;
+  font-family: var(--latoBlack);
+  text-align: center;
+}
+.hora-desc {
+  padding: 0.5vw 2vw;
+  font-family: var(--arialRegular);
+  color: #808080;
+}
