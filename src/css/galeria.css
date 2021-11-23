@@ -1,0 +1,35 @@
+.Galeria *{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0vw;
+    padding: 0vw;
+}
+
+.img-galeria-cmp{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: 1vw;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 0.5vw;
+}
+.column .img-galeria-cmp {
+    margin-top: 0.5vw;
+}
+@media (max-width :600px){
+    .column{
+        flex: 100%;
+    }
+}
+@media (max-width :800px){
+    .column{
+        flex: 50%;
+    }
+}

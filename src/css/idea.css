@@ -1,0 +1,85 @@
+body{
+    min-height: 80vw;
+}
+.Idea{
+    width: 74%;
+    background-color: var(--grisFondo);
+    padding: 0vw 0vw 0vw 5vw;
+}
+
+.tarjetaVivienda{
+    background: white;
+    height: 21.5vw;
+    width: 28.2%;
+    border-radius: 0.5vw;
+    margin-right: 2vw;
+    display: inline-block;
+    margin-bottom: 2vw;
+}
+.containerTarjetas{
+    width: 100%;
+    display: contents;
+}
+.imagenCard img{
+    width: 20.4vw;
+    height: 16vw;
+    border-radius: 0.5vw;
+    z-index: 1;
+}
+.informacionCard{
+    color: black;
+    margin-left: 1.5vw;
+}
+.titleImg{
+    font-family: var(--latoBold);
+    font-size: 1vw;
+}
+
+.nameProf{
+    font-family: var(--latoRegular);
+    font-size: 0.8vw;
+    margin-top: -0.5vw;
+    color: var(--grisClaro);
+}
+.fechaImg{
+    font-family: var(--latoThin);
+    font-size: 0.8vw;
+    color: var(--grisClaro);
+}
+.imagenUser{
+    width: 6vw;
+    height: 6vw;
+    background-color: white;
+    position: absolute;
+    margin-top: -7.5vw;
+    margin-left: 14vw;
+    border-radius: 5vw;
+    z-index: 1;
+    border-color: var(--naranja);
+    border-style: solid;
+}
+.imagenUser img{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+    border-radius: 5vw;
+}
+
+.componentLoginUsr{
+    position: absolute;
+    height: 19vw;
+    width: 27%;
+    left: 36vw;
+    top: 15vw;
+    z-index: 2;
+}
+.img-com{
+    position: absolute;
+    z-index: 3;
+    margin-left: -27vw;
+    margin-top: -39vw;
+    background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75));
+    width: 100%;
+    height: 67vw;
+}

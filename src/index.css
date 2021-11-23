@@ -1,36 +1,142 @@
 @font-face {
-    font-family: caviarNormal;
-    src: url(./fuentes/CaviarDreams.ttf) format("opentype");
+  font-family: caviarNormal;
+  src: url(./fuentes/CaviarDreams.ttf) format("opentype");
 }
 @font-face {
-    font-family: caviarBold;
-    src: url(./fuentes/CaviarDreams_Bold.ttf) format("opentype");
+  font-family: caviarBold;
+  src: url(./fuentes/CaviarDreams_Bold.ttf) format("opentype");
 }
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('http://fonts.cdnfonts.com/css/arial?styles=48878');
+@font-face {
+  font-family: latoHeavy;
+  src: url(./fuentes/Lato-Heavy.ttf) format("opentype");
+}
+@font-face {
+  font-family: arialBold;
+  src: url(./fuentes/FontsFree-Net-arial-bold.ttf) format("opentype");
+}
+@font-face {
+  font-family: latoSemibold;
+  src: url(./fuentes/LatoSemibold.ttf) format("opentype");
+}
+@font-face {
+  font-family: lato-Bold;
+  src: url(./fuentes/Lato-Bold.ttf) format("opentype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("http://fonts.cdnfonts.com/css/arial?styles=48878");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&display=swap');
 
 /*
 Variables Globales 
 */
-:root{
-    --caviarNormal:'caviarNormal',sans-serif;
-    --caviarBold:'caviarBold',sans-serif;
-    --latoRegular: 'Lato', sans-serif;;
-    --naranja:#FD9019;
-    --grisClaro:#767676;
-    --grisObscuro:#2E2E2E;
-    --grisBienClaro:#0000001f;
-    --arialRegular: 'Arial', sans-serif;
+:root {
+  /**fuentes**/
+  --caviarNormal: "caviarNormal", sans-serif;
+  --caviarBold: "caviarBold", sans-serif;
+  --latoRegular: "Lato", sans-serif;
+  --latoBlack: "Lato-black", sans-serif;
+  --latoLigth: "Lato-ligth", sans-serif;
+  --latoHeavy: "latoHeavy", sans-serif;
+  --latoBold: "lato-Bold", sans-serif;
+  --lato-Bold: "lato-Bold", sans-serif;
+  --latoSemibold: "latoSemibold", sans-serif;
+  --latoThin: "lato-Thin", sans-serif;
+  --arialRegular: "Arial", sans-serif;
+  --arialBold: "arialBold", sans-serif;
+  /**colores**/
+  --naranja: #fd9019;
+  --grisClaro: #767676;
+  --grisObscuro: #2e2e2e;
+  --grisBienClaro: #0000001f;
+  --grisNegro: #191919;
+  --grisCalro1: #7c828b;
+  --azulFacebook: #1778f2;
+  --grisSombra: #00000029;
+  --grisFondo:#F2F2F2;
+  --grisClaroP:#989797;
 }
 body {
-    font-weight: 300;
-    font-size: 1vw;
-    line-height: 1.7;
-    min-height: 207vw;
-    font-family: var(--caviarNormal);
-    color: white;
-    margin: 0px;
+  font-weight: 300;
+  font-size: 1vw;
+  line-height: 1.7;
+  min-height: 146vw;
+  font-family: var(--caviarNormal);
+  color: white;
+  margin: 0px;
+  background-color: var(--grisFondo);
 }
-p{
-    margin:0px;
+input:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+  
+}
+button{
+  cursor: pointer;
+}
+p {
+  margin: 0px;
+}
+a {
+  margin: 0px;
+  cursor: pointer;
+}
+.contentIdeaDash {
+  display: flex;
+  width: 100%;
+}
+.titleIdeas{
+  font-family: var(--caviarBold);
+  color: var(--naranja);
+  margin-left: 0vw;
+  font-size: 3vw;
+}
+.ContainerPerfiles{
+  background: var(--grisFondo);
+  padding: 2vw 0vw 0vw 10vw;
+  min-height: 54vw;
+}
+.containerArrow{
+  margin-left: -6vw;
+  margin-top: 9vw;
+  position: absolute;
+  cursor: pointer;
+}
+.containerFrmProyect{
+  background: var(--grisFondo);
+  padding: 2vw 0vw 0vw 10vw;
+  min-height: 47vw;
+  max-height: auto;
+}
+.container-perfiles{
+  display: flex;
+}
+
+.Seguimiento {
+  background: white;
+  position: absolute;
+  margin-left: 23vw;
+  width: 50.5vw;
+  margin-top: 3vw;
+  height: 41vw;
+  border-radius: 1vw;
+}
+.flecha{
+  display:inline-block;
+  width:0.5vw;
+  height:0.5vw;
+  margin:1vw;
+  border-top:solid 0.2vw;
+  border-right:solid 0.2vw;
+}
+.down{
+  transform: rotate(135deg);
+}
+.dashLogin-about{
+  position: relative;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.75);
 }

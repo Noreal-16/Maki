@@ -1,0 +1,140 @@
+
+.container-basrras-all{
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    height: 13vw;
+    margin-top: -2vw;
+}
+.container-basrras-all::-webkit-scrollbar{
+    display: none;
+}
+.container-text-img{
+    padding: 2vw;
+}
+.container-text-img-gal{
+    display: flex;
+    margin-left: 27vw;
+    margin-top: -18vw;
+}
+.img-sinImg{
+    height: 14vw;
+    width: 18vw;
+}
+.text-img{
+    margin-left: 2.3vw;
+    margin-top: -0.2vw;
+    color:#989797 ;
+    font-family: var(--latoRegular);
+}
+.img-galeria{
+    height: 14vw;
+    border-radius: 1vw;
+}
+.img1{
+    z-index: 1;
+}
+.img2{
+    z-index: 2;
+    margin-left: -22vw;
+}
+.img3{
+    z-index: 3;
+    margin-left: -22vw;
+}
+.text-img-gal{
+    margin-left: -17.7vw;
+    margin-top: 14.6vw;
+    color:#989797 ;
+    font-family: var(--latoRegular);
+}
+.linea-cata{
+    width: 46vw;
+    height: 0.1vw;
+    position: absolute;
+    background:#DBDBDB ;
+    margin-top: 0.5vw;
+    margin-left: 2vw;
+}
+/**barras*/
+.CotPendientes .tite-cotizacion{
+    font-family: var(--latoBlack);
+    color: #2E2E2E;
+    font-size: 1.8vw;
+    margin-bottom: 3vw;
+    margin-left: 2vw;
+}
+.CotPendientes .conntainer-barras {
+    display: flex;
+    margin-left: -3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+.CotPendientes   .container-progereso {
+    width: 6vw;
+    text-align: center;
+    margin-left: 6vw;
+  }
+.CotPendientes   .container-progereso progreso {
+    position: inherit;
+    background: var(--naranja);
+    width: 11vw;
+    height: 1vw;
+    margin-top: -1vw;
+    margin-left: -3vw;
+    display: block;
+  }
+ .CotPendientes  .container-progereso .progresoVacio {
+    position: inherit;
+    display: block;
+    background: white;
+    width: 11vw;
+    height: 0.7vw;
+    margin-top: -1vw;
+    margin-left: -3vw;
+    border-color: var(--naranja);
+    border-style: solid;
+  }
+.CotPendientes   .cotizacion-pendiente{
+    margin-left: 1.9vw;
+  }
+.CotPendientes   .container-button-gal{
+    display: flex;
+    margin-left: -30vw;
+    margin-top: -3.5vw;
+    padding: 4vw;
+}
+.CotPendientes .container-button-gal .btn-revisar{
+    margin-left: 46vw;
+    width: 7vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+    font-family: var(--latoBlack);
+}
+.CotPendientes .btn-revisar{
+    background: var(--naranja);
+    border-style: none;
+    color: white;
+}
+.CotPendientes .img-person {
+    position: inherit;
+    margin-left: -35vw;
+    margin-top: -2.7vw;
+    height: 4vw;
+    width: 4vw;
+    border-radius:3vw ;
+
+  }
+.CotPendientes   .position{
+      margin-left: -23.9vw;
+  }
+.CotPendientes .container-progereso p{
+    padding: 0vw 4vw;
+    font-size: 0.8vw;
+    text-align: center;
+    margin-left: -4.5vw;
+    width: 7vw;
+    font-family: var(--latoRegular);
+    color: var(--grisObscuro);
+  }
+

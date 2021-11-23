@@ -1,0 +1,22 @@
+.footerBody{
+    background-color: var(--grisNegro);
+    height: 18vw;
+}
+.footerBody .cuerpo-footer{
+    margin-top: 4vw;
+    text-align: center;
+    padding: 2vw;
+}
+.footerBody .cuerpo-footer .logo-maki-footer{
+    height: 4vw;
+}
+.footerBody .cuerpo-footer .rede-maki-footer{
+    height: 4vw;
+}
+.footerBody .cuerpo-footer .text-footer{
+    margin: 0vw;
+    font-family: var(--latoBlack);
+    font-size: 1.5vw;
+    padding: 1vw;
+    color: white;
+}

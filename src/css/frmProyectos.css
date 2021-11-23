@@ -1,0 +1,123 @@
+body{
+    min-height: 80vw;
+}
+.titlePro{
+    margin-top: -1vw;
+    margin-left: -6.3vw;
+    font-size: 2.5vw;
+}
+
+.FrmProyectos .text-p {
+    font-family: var(--caviarBold);
+    color: #989797;
+    font-size: 1vw;
+    margin-left: -6.3vw;
+    margin-top: -3vw;
+}
+.containerFormulario{
+    width: 92vw;
+    background: white;
+    min-height: 34vw;
+    margin-left: -6.3vw;
+    margin-top: 3vw;
+    border-radius: 1vw;
+    max-height: auto;
+    box-shadow: 0px 3px 17px 1px rgba(0,0,0,0.75);
+    
+}
+.containerImagen{
+    display: flex;
+}
+.containerImagen img{
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin-left: 77vw;
+        margin-right: auto;
+        margin-top: -5.5vw;
+        border-color: var(--naranja);
+        border-style: solid;
+}
+
+.containerImagen p{
+    margin-top: 4.6vw;
+    position: absolute;
+    margin-left: 79.5vw;
+    font-family: var(--latoBold);
+    color: var(--naranja);
+}
+.formulario{
+    margin-left: 12vw;
+    margin-top: 3vw;
+}
+.formulario .tcx-que{
+    font-family: var(--latoBold);
+    font-size: 1vw;
+    color: var(--grisObscuro);
+    margin-left: -7vw;
+}
+.containerSelect input{
+    font-family: var(--arialRegular);
+    border-radius: 0.5vw;
+    margin-left: -7vw;
+    height: 3vw;
+    width: 32vw;
+    border-color: var(--naranja);
+    border-style: solid;
+    margin-top: 0.5vw;
+    color: #D9D9D9;
+    padding-left: 1.5vw;
+    cursor: pointer;
+}
+.containerSelect  option {
+    color: #767676;
+    font-family: var(--latoRegular);
+}
+.containerButton button{
+    width: 12vw;
+    font-family: var(--latoBold);
+    font-size: 1.2vw;
+    padding: 0.5vw;
+    border-radius: 0.2vw;
+    background: var(--naranja);
+    color: white;
+    border-style: none;
+    margin-left: 24vw;
+    margin-top: 15vw;
+}
+.containerP {
+    position: absolute;
+    margin-top: 0.5vw;
+    margin-left: 11vw;
+    background-color: #F2F2F2;
+    height: 4vw;
+    padding: 1vw;
+    border-radius: 0.5vw;
+}
+.containerP p {
+    cursor: pointer;
+    padding: 0.5vw;
+    line-height: 1vw;
+    margin-left: 0vw;
+    margin-top: 0vw;
+    font-family: var(--latoRegular);
+    color: var(--grisClaro);
+    font-size: 1.2vw;
+}
+.containerP p:hover {
+    border-bottom-style: solid;
+}
+.arrow-select{
+    position: absolute !important;
+    margin-left: 23.5vw !important;
+    margin-top: -3vw !important;
+    color: var(--naranja);
+}
+.dashHear-proyectos{
+    position: relative;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.75);
+}
+.FrmPNuevo .centrado{
+    margin-left: 1vw;
+    margin-top: -3vw;
+}

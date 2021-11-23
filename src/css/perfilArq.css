@@ -1,0 +1,70 @@
+.PerfilArq{
+    height: 41vw;
+    width: 17%;
+    background: white;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    border-radius: 1vw;
+}
+/**Imagen y nombre  perfil**/
+.PerfilArq .container-img{
+    display: flex;
+}
+.PerfilArq .container-img img{
+        width: 12vw;
+        height: 12vw;
+        border-radius: 6vw;
+        margin-left: 2.3vw;
+        margin-right: auto;
+        margin-top: 2.5vw;
+        border-color: var(--naranja);
+        border-style: solid;
+}
+.PerfilArq .container-img p{
+    margin-top: 14.8vw;
+    position: absolute;
+    margin-left: 5.5vw;
+    font-family: var(--latoBold);
+    color: var(--naranja);
+}
+/**Imagen estrellas**/
+.PerfilArq .container-star{
+    display: flex;
+    padding: 0vw 3vw; 
+ }
+.PerfilArq .calificacion{
+    color: #989797;
+    margin-top: 3vw;
+    margin-left: -8.3vw;
+    font-size: 0.6vw;
+    font-family: var(--latoLigth);
+ }
+ .PerfilArq .star-perfil{
+     margin: 1.5vw 0vw 1vw 0.8vw;
+ }
+ .PerfilArq .star-perfil img{
+     height: 1.2vw;
+ }
+ /**Infotmacion*/
+ .PerfilArq .container-informacion{
+     margin-top: 1.5vw;
+ }
+ .PerfilArq .info{
+    display: flex;
+    margin-left: 1vw;
+    margin-top: -1.3vw;
+}
+.PerfilArq  .info img{
+    width: 1.2vw;
+    margin-left: 3.5vw;
+    margin-top: 2vw;
+    position: absolute;
+ }
+.PerfilArq  .info p{
+    color: #0000005D;
+    font-size: 0.7vw;
+    font-family: var(--arialRegular);
+    margin-top: 2.2vw;
+    margin-left: 5vw;
+    text-align: center;
+ }

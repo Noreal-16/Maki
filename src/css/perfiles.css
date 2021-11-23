@@ -1,0 +1,103 @@
+.Perfiles{
+    display: flow-root;
+    padding: 3vw;
+}
+.Perfiles .estiloTitle{
+    margin-right: 51vw;
+    margin-left: -8vw;
+}
+
+.Perfiles .containerCards{
+    padding: 4vw 1vw;
+    display: contents;
+    width: 100%;
+    margin: auto;
+}
+.Perfiles .containerCard{
+    width: 20%;
+    background-color: white;
+    height: 18vw;
+    display: inline-block;
+    margin-top: 5vw;
+    margin-right: 4vw;
+}
+
+.Perfiles .containerImg{
+    display: flex;
+}
+.Perfiles .containerImg img{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3.5vw;
+}
+
+.Perfiles .informationCard h2{
+    color: var(--grisObscuro);
+    font-size: 0.9vw;
+    font-family: var(--arialBold);
+    text-align: center;
+}
+
+.Perfiles .informationCard p{
+    font-family: var(--arialRegular);
+    color: var(--grisObscuro);
+    font-size: 0.6vw;
+    text-align: center;
+    margin-top: -0.5vw;
+}
+.Perfiles .cardStar{
+   display: flex;
+   padding: 0vw 2vw; 
+}
+.Perfiles .star{
+    margin: 0.5vw 0vw 1vw 0.8vw;
+}
+.Perfiles .star img{
+    height: 1.5vw;
+}
+.Perfiles .infoPlanos {
+    display: flex;
+    padding: 0vw 3vw;
+}
+.Perfiles .Perfiles .infoPlanos p{
+    color: var(--grisObscuro);
+    text-align: center;
+    
+}
+.Perfiles .valor{
+    font-family: var(--arialRegular);
+    font-size: 0.9vw;
+}
+.Perfiles .infor{
+    font-family: var(--arialBold);
+    font-size: 0.5vw;
+}
+.Perfiles linea{
+    background-color: var(--grisClaro);
+    height: 1vw;
+    width: 0.1vw;
+    margin: auto;
+}
+.Perfiles .containerBotton{
+    display: flex;
+    padding: 2vw 1vw;
+    margin-left: 0.5vw;
+
+}
+.Perfiles .containerBotton button{
+    background: #FD9019 0% 0% no-repeat padding-box;
+    margin-left: 0.7vw;
+    border-radius: 0.5vw;
+    padding: 0.4vw 1vw;
+    border-style: none;
+    cursor: pointer;
+
+}
+.Perfiles .containerBotton p{
+    color: white;
+    font-size: 0.8vw;
+    text-align: center;
+}

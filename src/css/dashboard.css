@@ -1,0 +1,65 @@
+.Dashboard{
+    width: 22%;
+    background: white;
+    
+}
+.titleDash{
+    font-size: 2vw;
+    padding: 1vw 2vw;
+    margin-top: 3vw;
+}
+.containerMenuDash{
+    color: var(--grisClaro);
+    font-family: var(--caviarBold);
+    text-align: center;
+}
+.Dashboard h2{
+    font-size: 1.3vw;
+    text-align: justify;
+    margin-left: 4.3vw;
+}
+.menuLista{
+    margin-top: -1.8vw;
+    margin-left: 3vw;
+    text-align: justify;
+    font-family: var(--caviarNormal);
+}
+.menuLista1{
+    margin-left: 6vw;
+    text-align: justify;
+    
+}
+.menuDash{
+    margin-top: -2vw;
+}
+.titleVivienda{
+    margin-top: -1.5vw;
+    font-size: 1.3vw;
+    margin-left: -5vw;
+}
+.menuReforma{
+    margin-top: -1vw;
+}
+.submenuReforma{
+    margin-top: -1vw;
+    text-align: justify;
+    margin-left: 6vw;
+}
+.contorno{
+    position: absolute;
+    margin-left: 9.5vw;
+    margin-top: -2.6vw;
+}
+.contornoArrow{
+    position: absolute !important;
+    margin-left: 15.5vw !important;
+    margin-top: -2.6vw !important;
+}
+.conto{
+    position: absolute !important;
+    margin-left: 14.5vw !important;
+    margin-top: -2.6vw !important;
+}
+
+
+

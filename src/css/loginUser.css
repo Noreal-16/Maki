@@ -1,0 +1,134 @@
+body {
+    background-color: var(--grisFondo);
+  }
+
+  .LoginUser {
+    background-color: white;
+    padding: 2.3vw 2.5vw;
+    margin-top: 1.5vw;
+    border-radius: 0.5vw;
+    
+  }
+  
+  .titleLogin{
+      text-align: center;
+      color: var(--grisNegro);
+      font-size: 1.8vw;
+      font-family: var(--latoHeavy);
+  }
+  
+  .LoginUser .labelCheck{
+    margin-top: 3vw;
+  }
+  /** Inputs **/
+  .inputForm{
+    margin-left: 11vw;
+  }
+  .LoginUser input{
+    border-color: var(--grisCalro1);
+    padding: 0.1vw;
+    border-radius: 1vw;
+    margin-top: 1vw;
+    font-family: var(--latoLigth);
+    font-size: 1vw;
+    width: 21vw;
+    padding-left: 2vw;
+    margin-left: -11vw;
+    color: var(--grisCalro1);
+    
+  }
+  .LoginUser button{
+    border-radius: 0.5vw;
+    background: transparent linear-gradient(180deg, #FD9019 0%, #F68C18 65%, #BF6E17 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    font-family: var(--latoBlack);
+    font-size: 1vw;
+    padding: 0.5vw;
+    border-style: none;
+    text-align: center;
+    margin: 1vw auto;
+  }
+  .bottonCont{
+    display: flex;
+  }
+  .LoginUser .titleRegist{
+    font-size: 1.8vw;
+    color: var(--grisNegro);
+    font-family: var(--latoHeavy);
+    text-align: center;
+  }
+  .LoginUser a {
+    border-radius: 5vw;
+    display: flex;
+    font-size: 0.8vw;
+    margin-top: 1vw;
+    padding: 0.2vw;
+    padding-left: 13vw;
+    font-family: var(--latoBold);
+    width: 38%;
+    margin-left: 0vw;
+  
+  }
+  .textoFacebbok {
+    background-color: var(--azulFacebook);
+  }
+  .textoGoogle  {
+    color: var(--grisNegro);
+    /**box-shadow: 2vw 2vw 5vw 2vw var(--grisSombra);**/
+    box-shadow: 0px 7px 12px 0px var(--grisSombra);
+  }
+  .textoGoogle img{
+    height: 0.6vw;
+    margin: auto 1vw auto -8.1vw;
+  }
+  .textoFacebbok img{
+    height: 0.6vw;
+    margin: auto 0.5vw auto -8vw;
+    width: 0.3vw;
+  }
+  .LoginUser label{
+    color: var(--grisNegro);
+    font-family: var(--latoRegular);
+    font-size: 0.9vw;
+    margin-top: -1.6vw;
+    padding-left: 3vw;
+    float: right;
+    line-height: 1vw;
+  }
+  .LoginUser .labelCheck{
+    margin-top: 1vw;
+  }
+  .LoginUser .inputChec{
+    border-color: var(--naranja);
+    margin-left: -9vw;
+    color: var(--naranja);
+    margin-top: 1vw;
+  }
+ 
+  .LoginUser rayas{
+  width: 45%;
+  height: 0.01vw;
+  background-color: var(--grisClaro);
+  display: inline-block;
+  margin: auto;
+  }
+  .cotenSeparador{
+    display: flex;
+    margin-top: 0vw;
+    padding: 0vw 3vw;
+    margin-bottom: 1vw;
+  }
+  .cotenSeparador p{
+    font-size: 2vw;
+    color: var(--grisClaro);
+    margin: -0.5vw 1vw 0vw 1vw;
+  }
+  .textoRegitro{
+    border-color: var(--naranja);
+    color: var(--naranja);
+    border-style: solid;
+  }
+  .textoRegitro p{
+    margin-left: -8vw;
+  }
+  

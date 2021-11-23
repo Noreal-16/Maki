@@ -1,0 +1,109 @@
+.container-arq .img-arq {
+  height: 16vw;
+  width: 46vw;
+  border-radius: 1vw;
+  margin-left: 2.3vw;
+}
+.containerImg-arq {
+  display: flex;
+}
+.containerImg-arq img {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 5vw;
+  margin-left: 4vw;
+  margin-right: auto;
+  margin-top: -6.5vw;
+  border-color: var(--naranja);
+  border-style: solid;
+}
+
+.information-arq h2 {
+  color: var(--naranja);
+  font-size: 0.9vw;
+  font-family: var(--latoBold);
+  text-align: center;
+  margin-left: -35vw;
+  margin-top: 0vw;
+}
+.cardStar-arq {
+  display: flex;
+  padding: 0vw 3.6vw;
+}
+.star-arq {
+  margin: -1.1vw 0vw 1vw 0.6vw;
+}
+.star-arq .img-arq-star {
+  height: 0.9vw;
+}
+.container-publicaciones {
+  display: flex;
+  color: #989797;
+  font-size: 0.9vw;
+  font-family: var(--latoSemibold);
+  margin-left: 14vw;
+  margin-top: -5vw;
+}
+.container-whatsapp {
+  margin-left: 1vw;
+}
+.text-publi {
+  padding: 0vw 1vw;
+}
+.img-whats {
+  height: 1vw;
+  position: absolute;
+  margin-top: -1.3vw;
+  margin-left: -0.3vw;
+}
+.mensaje {
+  color: #29d263;
+}
+.linea-separador-publi{
+    background-color: #DBDBDB;
+    height: 1vw;
+    width: 0.1vw;
+    margin: 0.2vw;
+}
+.linea-baja{
+    width: 36vw;
+    height: 0.1vw;
+    position: absolute;
+    background:#DBDBDB ;
+    margin-top: 1.5vw;
+    margin-left: -2vw;
+}
+
+/**container imagen*/
+.container-bienes{
+    display: flex;
+    margin-left: 2.6vw;
+}
+.container-img-text{
+    margin-left: 1.5vw;
+    margin-top: 3vw;
+}
+.img-casa{
+    height: 6vw;
+    border-radius: 1vw;
+    box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+    padding: 0.19vw;
+    cursor: pointer;
+}
+.txt-casa{
+    font-size: 0.7vw;
+    font-family: var(--latoRegular);
+    color: #989797;
+    text-align: center;
+}
+.btn-cotizacion{
+  width: 11vw;
+   margin-top: 4vw;
+   margin-left: 21vw;
+   height: 2vw;
+   border-radius: 0.3vw;
+   background: transparent linear-gradient(180deg, #FD9019 0%, #FA8E18 69%, #E87700 100%) 0% 0% no-repeat padding-box;
+   color: white;
+   border-style: none;
+   font-family: var(--latoBlack); 
+}

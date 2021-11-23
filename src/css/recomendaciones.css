@@ -1,0 +1,127 @@
+.Recomendaciones{
+    height: 41vw;
+    width: 21%;
+    background: white;
+    margin-top: 3vw;
+    margin-left: 53vw;
+    border-radius: 1vw;
+    
+}   
+.Recomendaciones .container-tarjetas{
+    height: 35vw;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.Recomendaciones .container-tarjetas::-webkit-scrollbar{
+    display: none;
+}
+.separador{
+    background: var(--naranja);
+    height: 0.01vw;
+    width: 17vw;
+    margin-left: 2vw;
+    margin-top: -1vw;
+}
+.title-recom{
+    font-family: var(--latoSemibold);
+    color: var(--naranja);
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.containerCards{
+    padding: 4vw 1vw;
+    display: contents;
+    width: 100%;
+    margin: auto;
+}
+.containerCard{
+    width: 100%;
+    background-color: white;
+    height: 18vw;
+    display: inline-block;
+    margin-top: 5vw;
+    margin-right: 3vw;
+}
+
+.containerImg{
+    display: flex;
+}
+.containerImg img{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3.5vw;
+}
+
+.informationCard h2{
+    color: var(--grisObscuro);
+    font-size: 0.9vw;
+    font-family: var(--arialBold);
+    text-align: center;
+}
+
+.informationCard p{
+    font-family: var(--arialRegular);
+    color: var(--grisObscuro);
+    font-size: 0.6vw;
+    text-align: center;
+    margin-top: -0.5vw;
+}
+.cardStar{
+   display: flex;
+   padding: 0vw 4vw; 
+}
+.star{
+    margin: 0.5vw 0vw 1vw 0.8vw;
+}
+.star img{
+    height: 1.5vw;
+}
+.infoPlanos {
+    display: flex;
+    padding: 0vw 4vw;
+    
+}
+.infoPlanos p{
+    color: var(--grisObscuro);
+    text-align: center;
+    
+}
+.valor{
+    font-family: var(--arialRegular);
+    font-size: 0.9vw;
+}
+.infor{
+    font-family: var(--arialBold);
+    font-size: 0.5vw;
+}
+.linea-separador{
+    background-color: var(--grisClaro);
+    height: 1vw;
+    width: 0.1vw;
+    margin: auto;
+}
+.containerBotton{
+    display: flex;
+    padding: 2vw 3vw;
+    margin-left: 0.5vw;
+
+}
+.containerBotton button{
+    background: #FD9019 0% 0% no-repeat padding-box;
+    margin-left: 0.7vw;
+    border-radius: 0.5vw;
+    padding: 0.4vw 1vw;
+    border-style: none;
+    cursor: pointer;
+
+}
+.containerBotton p{
+    color: white;
+    font-size: 0.8vw;
+    text-align: center;
+}

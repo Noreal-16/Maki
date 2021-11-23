@@ -1,0 +1,183 @@
+/*
+*Llamamos por etiqueta
+*/
+.DashLogin nav {
+  background-color: white;
+  display: flex;
+  padding: 2vw 4vw;
+  height: 2vw;
+}
+.container-buscador {
+  display: flex;
+  margin-left: 8vw;
+}
+.DashLogin nav > div {
+  margin-left: 0vw;
+  margin-top: 0vw;
+  width: 56%;
+  display: flex;
+}
+.contenIcon {
+  width: 60% !important;
+}
+.DashLogin nav > img {
+  width: 10vw;
+  height: 3vw;
+  margin-top: -0.4vw;
+}
+.DashLogin input {
+  margin: auto;
+  border-color: var(--naranja);
+  border-radius: 1vw;
+  border-width: 0.1vw;
+  height: 1.5vw;
+  width: 11vw;
+  padding-left: 6vw;
+  font-size: 0.7vw;
+  color: var(--naranja);
+  border-style: solid;
+}
+.tituloBuscador {
+  color: var(--grisObscuro);
+  margin-top: -0.6vw;
+  height: 1.3vw;
+  font-size: 0.8vw;
+  border: 0.05vw solid var(--grisBienClaro);
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  text-decoration: none;
+  padding: 1vw;
+  font-family: var(--latoRegular);
+}
+
+.DashLogin .ingresaProfecional {
+  margin: auto;
+  color: var(--naranja);
+  background-color: white;
+  border-color: var(--naranja);
+  font-size: 0.8vw;
+  padding: 0.3vw;
+  border-radius: 0.3vw;
+  border-style: solid;
+}
+.lupa {
+  width: 0.7vw;
+  height: 0.7vw;
+  margin: auto;
+}
+
+.conjuntoSearch-user {
+  display: flex;
+  width: 7vw;
+  margin-right: -6.5vw;
+  z-index: 1;
+}
+.conjuntoSearch-user .arquit {
+  color: var(--naranja);
+  margin: auto auto auto 0vw;
+  border-right-style: solid;
+  border-width: 0.1vw;
+  padding-right: 0.5vw;
+  font-size: 0.7vw;
+}
+
+.btnRegsitrarse {
+  background: #fd9019 0% 0% no-repeat padding-box;
+  color: #fff;
+  border-radius: 0.5vw;
+  padding: 0.3vw 0.5vw;
+  font-size: 0.8vw;
+  border-style: none;
+  margin-left: 0.4vw;
+}
+/**Linea Separado*/
+.linea-separador-campana {
+  position: absolute;
+  background-color: var(--naranja);
+  height: 3.5vw;
+  width: 0.01vw;
+  margin: 0.2vw;
+  margin-top: -0.6vw;
+  margin-left: 28vw;
+}
+.linea-separador-campana-bajo {
+  position: absolute;
+  background-color: var(--naranja);
+  height: 3.5vw;
+  width: 0.01vw;
+  margin: 0.2vw;
+  margin-top: -0.6vw;
+  margin-left: 34.5vw;
+}
+
+/**campana*/
+.campana-cntainer {
+  margin-left: 14vw;
+}
+.campana-img {
+  height: 1.5vw;
+  position: absolute;
+  margin-left: -9vw;
+  margin-top: 0.5vw;
+}
+/**User*/
+.container-user {
+  margin-left: 8vw;
+  margin-top: -1vw;
+  display: flex;
+}
+.img-user {
+  height: 4vw;
+  width: 4vw;
+  border-radius: 3vw;
+  position: absolute;
+  margin-left: -3vw;
+}
+.DashLogin .text-user {
+  font-family: arialBold;
+  color: var(--naranja);
+  margin-top: 1.4vw;
+  margin-left: -11vw;
+}
+.DashLogin .triangulo {
+  position: absolute;
+  width: 0vw;
+  height: 0vw;
+  border-left: 0.3vw solid transparent;
+  border-right: 0.3vw solid transparent;
+  border-bottom: 0.5vw solid var(--naranja);
+  padding: 0vw;
+  transform: rotate(179deg);
+  margin-left: 6.3vw;
+  margin-top: -1.2vw;
+}
+
+/**Menu Usuario*/
+.opciones-user {
+  margin-top: 1vw;
+  background: white;
+  width: 15vw;
+  height: 10vw;
+  padding: 1vw;
+  border-radius: 1vw;
+  position: absolute;
+  margin-left: 77.3vw;
+}
+.referencia {
+  font-family: latoRegular;
+  color: var(--grisObscuro);
+  padding: 0.2vw;
+  font-size: 0.9vw;
+}
+.DashLogin .opciones-user::before {
+  border: 2vw solid white;
+  content: "";
+  border-left-color: transparent;
+  border-top-color: transparent;
+  position: absolute;
+  left: 72%;
+  top: -3vw;
+  border-right-color: transparent;
+}
